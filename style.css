@@ -481,6 +481,10 @@ nav.dark a:hover {
 
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+    body{
+    width: 100%;
+    overflow-x: hidden;
+  }
   .header-navegation{
     width: 95%;
     height: 145px;
