@@ -480,6 +480,227 @@ nav.dark a:hover {
 /*SITES RESPONSIVEIS*/
 
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .header-navegation{
+    width: 95%;
+    height: 145px;
+    border-radius: 150px;
+  }
+  
+  .ul-hearder{
+    list-style-type: none;
+    display: none;
+  }
+
+  .img-logo{
+    width: 28%;
+    
+    display: flex;
+    position: relative;
+    top: auto;
+    left: 40%;
+  }
+
+  .trilho{
+    width: 12%;
+    height: 25px;
+    top: 120px;
+    right: 46.2%;
+  }
+
+  .container{
+    height: 560px;
+  }
+
+  .h1-frase1{
+    left: 30%;
+    top: 0px;
+    font-size: 70px;
+    transition: .5s;
+  }
+
+  .h1-frase2{
+    left: 1%;
+    top: 65px;
+    font-size: 70px;
+    transition: .5s;
+  }
+  
+  .h1-frase3{
+    display: flex;
+    position: absolute;
+    top: 175px;
+    margin: 0;
+    left: 15%;
+  }
+
+  .img-comeco>img{
+    left: 25%;
+    top: 120px;
+    width: 220px;
+    border-radius: 5%;
+    padding-top: 3%;
+  }
+
+  .scrolling-wrapper{
+    height: 30px;
+  }
+
+  .containernovidade{
+    margin: 1%;
+    width: 95%;
+    padding: 0;
+    transition: .5s;
+  }
+
+  .img-novidade{
+    width: 210px;
+    border-radius: 10%;
+    display: flex;
+    position: relative;
+  }
+
+  .container_servico{
+    height: 900px;
+  }
+
+  .servico_gif{
+    width: 190px;
+    border-radius: 25px;
+    margin-top: 100px;
+    left: 28%;
+    top: 30%;
+  }
+
+  .servico-p{
+    width: 90%;
+    left: 5%;
+    display: flex;
+    position: relative;
+    bottom: 45%;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+  }
+
+  .recomendado{
+    margin: 1%;
+    width: 95%;
+  }
+
+  .kit_recomendado{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+  }
+
+  .recomenadado_vermais a{
+    width: 15%;
+    left: 42.5%;
+    transition: all 0.3s ease;
+    font-size: 13px;
+  }
+
+  .container_sobre{
+    width: 95%;
+    margin:  auto;
+    display: flex;
+    position: relative;
+    height: 390px;
+  }
+
+  .sobre_h2{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    left: 35%;
+    bottom: 8%;
+  }
+
+  .sobre-p{
+    width: 90%;
+    position: relative;
+    left: 4%;
+    text-align: center;
+    font-size: 17px;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .img_sobre{
+    width: 50%;
+    top: 0%;
+    left: 25%;
+  }
+
+  .rodape_container{
+    width: 97%;
+    height: 240px;
+  }
+
+  .img-rodape{
+    width: 10%;
+    left: 12%;
+    top: 25%;
+  }
+
+  .p-slogan{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    left: 4%;
+    top: 20%;
+  }
+  
+  p.footer-sociais , .footer-ul{
+    padding-top: 16.5px;
+    display: flex;
+    position: relative;
+    bottom: 38%;
+    left: 37%;
+    list-style-type: none;
+    width: 29%;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .img-social{
+    width: 35px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 25%;
+  }  
+
+  .links{
+    width: 15%;
+    transition: .5s;
+    position: relative;
+    top: 48px;
+  }
+
+  .a-footer{
+    top: 25px;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    color: #000000c9;
+    text-decoration: none;
+    right: 40px;
+  }
+  
+    .a-footer:hover{
+      font-size: 15px;
+      color: #fff;
+    }
+
+  .copyright{
+    font-size: 10px;
+    left: 5%;
+    bottom: 13%;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+  }
+}
+
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .header-navegation{
     width: 90%;
