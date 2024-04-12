@@ -482,7 +482,7 @@ nav.dark a:hover {
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
     body{
-    width: auto;
+    width: 95%;
     overflow-x: hidden;
   }
   .header-navegation{
@@ -506,26 +506,27 @@ nav.dark a:hover {
   }
 
   .trilho{
-    width: 16%;
+    width: 17%;
     height: 25px;
     top: 120px;
     right: 46.2%;
   }
 
   .container{
-    height: 570px;
+    height: 580px;
   }
 
   .h1-frase1{
-    left: 27%;
+    left: 25%;
     top: 0px;
     font-size: 70px;
     transition: .5s;
   }
 
   .h1-frase2{
-    left: 0%;
-    top: 65px;
+    position: absolute;
+    left: 35%;
+    top: 70px;
     font-size: 70px;
     transition: .5s;
   }
@@ -533,19 +534,20 @@ nav.dark a:hover {
   .h1-frase3{
     display: flex;
     position: absolute;
-    top: 175px;
+    top: 185px;
     margin: 0;
-    left: 10%;
+    padding: 0;
+    left: 15%;
+    font-size: 60px;
   }
 
   .img-comeco>img{
-    left: 25%;
+    left: 20%;
     top: 130px;
     width: 220px;
     border-radius: 5%;
     padding-top: 3%;
   }
-
   .scrolling-wrapper{
     height: 30px;
   }
