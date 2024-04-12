@@ -480,7 +480,7 @@ nav.dark a:hover {
 /*SITES RESPONSIVEIS*/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .header-navegation{
     width: 90%;
     height: 145px;
