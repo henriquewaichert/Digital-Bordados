@@ -482,7 +482,7 @@ nav.dark a:hover {
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
     body{
-    width: 100%;
+    width: auto;
     overflow-x: hidden;
   }
   .header-navegation{
@@ -513,18 +513,18 @@ nav.dark a:hover {
   }
 
   .container{
-    height: 560px;
+    height: 570px;
   }
 
   .h1-frase1{
-    left: 30%;
+    left: 27%;
     top: 0px;
     font-size: 70px;
     transition: .5s;
   }
 
   .h1-frase2{
-    left: 1%;
+    left: 0%;
     top: 65px;
     font-size: 70px;
     transition: .5s;
@@ -535,12 +535,12 @@ nav.dark a:hover {
     position: absolute;
     top: 175px;
     margin: 0;
-    left: 15%;
+    left: 10%;
   }
 
   .img-comeco>img{
     left: 25%;
-    top: 120px;
+    top: 130px;
     width: 220px;
     border-radius: 5%;
     padding-top: 3%;
