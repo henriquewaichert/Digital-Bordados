@@ -1,13 +1,37 @@
-let trilho = document.getElementById('trilho')
+let trilho1 = document.getElementById('trilho')
 let body = document.querySelector('body')
 let nav = document.querySelector('nav')
 
 
-trilho.addEventListener('click', () => {
-  trilho.classList.toggle('dark')
+trilho1.addEventListener('click', () => {
+  trilho1.classList.toggle('dark')
   body.classList.toggle('dark')
   nav.classList.toggle('dark')
 })
+
+// MENU
+
+const abaMenu = document.querySelector('.aba-menu');
+const menu = document.querySelector('.header-menu');
+const closemenu = document.querySelector('.close-menu');
+const trilho = document.querySelector('.trilho');
+const links = document.querySelectorAll('.header-menu ul li a');
+
+abaMenu.addEventListener('click', () => {
+  menu.classList.add('active');
+});
+
+closemenu.addEventListener('click', () => {
+  menu.classList.remove('active');
+});
+
+// Fecha o menu ao clicar em qualquer link
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('active');
+  });
+});
+
 
 // SLIDES
 
@@ -23,7 +47,7 @@ setInterval(() => {
 function proximaImg() {
   cont++
 
-  if (cont > 4) {
+  if (cont > 5) {
     cont = 1
   }
 

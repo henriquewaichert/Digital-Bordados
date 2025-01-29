@@ -1,0 +1,86 @@
+/*TRANSAÇÃO DE DARK MODE*/
+
+body.dark #inicio {
+    background-color: #fd6084;
+}
+
+.trilho.dark {
+    background-color: #fe9b91;
+}
+
+.trilho.dark .indicador {
+    left: 23px;
+    background-color: #fd6084;
+}
+
+body.dark {
+    background-color: #fe9b91;
+}
+
+body.dark h1 {
+    color: #f1f1f1;
+}
+
+body.dark h2 {
+    color: #000;
+}
+
+body.dark p {
+    color: #ffebeb;
+}
+
+body.dark strong {
+    color: black;
+    opacity: 0.7;
+}
+
+nav.dark {
+    background-color: #fd60857c;
+}
+
+nav.dark .a-hearder {
+    color: #f1f1f1;
+}
+
+nav.dark a:hover {
+    font-size: 16.5px;
+    color: #000;
+}
+
+body.dark .containernovidade {
+    background-color: #fd6085aa;
+}
+
+
+.preco.dark {
+    background-color: #7f0000;
+}
+
+body.dark .recomendado {
+    background-color: #fe9b91;
+}
+
+body.dark .sobre_container {
+    background-color: #fd6085aa;
+}
+
+body.dark .footer_container {
+    background-color: #fd6084;
+    color: #ffebeb;
+}
+
+body.dark .bi.bi-instagram,
+body.dark .bi.bi-facebook,
+body.dark .bi.bi-whatsapp {
+    color: #ffebeb;
+}
+
+body.dark li {
+    color: #ffebeb;
+}
+
+body.dark .copyright {
+    color: #ffebeb;
+}
+
+/*TRANSAÇÃO DE DARK MODE*/

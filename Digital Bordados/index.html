@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Bordados</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="dark.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <!-- Import Bootstrap Icons -->
     <link rel="stylesheet"
@@ -16,31 +16,32 @@
 </head>
 
 <body>
-    <nav class="header-navegation">
-        <ul class="ul-hearder">
-            <li><a href="#inicio" class="a-hearder">INÍCIO</a></li>
-        </ul>
-        <ul class="ul-hearder">
-            <li><a href="#novidades" class="a-hearder">NOVIDADES</a></li>
-        </ul>
-        <ul class="ul-hearder">
-            <li><a href="#paravoce" class="a-hearder">PARA VOCÊ</a></li>
-        </ul>
-        <!-- <img src="img/logo_digitalbordados.png" alt="" class="img-logo"> -->
-        <ul class="ul-hearder">
-            <li><a href="#sobre" class="a-hearder">SOBRE NÓS</a></li>
-        </ul>
-        <ul class="ul-hearder">
-            <li><a href="#contato" class="a-hearder">CONTATO</a></li>
-        </ul>
-
-        <div class="trilho" id="trilho">
-            <div class="indicador"></div>
-        </div>
-    </nav>
+    <div id="inicio2"></div>
+    <header id="inicio">
+        <div class="cabecalho">
+            <nav class="header-menu">
+                <ul class="ul-hearder">
+                    <li><a href="#inicio2" class="a-hearder">INÍCIO</a></li>
+                    <li><a href="#novidades" class="a-hearder">NOVIDADES</a></li>
+                    <li><a href="#paravoce" class="a-hearder">PARA VOCÊ</a></li>
+                    <li><a href="#sobre" class="a-hearder">SOBRE NÓS</a></li>
+                    <li><a href="#contato" class="a-hearder">CONTATO</a></li>
+                </ul>
+                <button class="close-menu">X</button>
+            </nav>
+            <div class="aba-menu">
+                <span class="span-menu"></span>
+                <span class="span-menu"></span>
+                <span class="span-menu"></span>
+            </div>
+            <div class="trilho" id="trilho">
+                <div class="indicador"></div>
+            </div>
+        </div><!--cabecalho-->
+    </header>
 
     <main>
-        <div class="container" id="inicio">
+        <div class="containerinicio">
             <div class="frase_comeco">
                 <h1 class="h1-frase1">FAÇA <br> DO <br> SEU JEITO</h1>
             </div>
@@ -49,7 +50,8 @@
             </div>
             <div class="scrolling-wrapper">
             </div>
-        </div>
+        </div><!--containerinicio-->
+
         <div id="novidades"></div>
         <div class="containernovidade">
             <section class="novidade">
@@ -80,7 +82,8 @@
                 </div><!--container_img-->
             </section>
             <div id="paravoce"></div>
-        </div>
+        </div><!--containernovidade-->
+
         <div class="container_recomendado">
             <h2 class="h2_recomendado">RECOMENDADOS PARA VOCÊ</h2>
             <div class="slider">
@@ -89,9 +92,10 @@
                     <input type="radio" name="btn-kit" id="radio2" class="bolinhas-kit">
                     <input type="radio" name="btn-kit" id="radio3" class="bolinhas-kit">
                     <input type="radio" name="btn-kit" id="radio4" class="bolinhas-kit">
+                    <input type="radio" name="btn-kit" id="radio5" class="bolinhas-kit">
 
                     <div class="slide-box primeiro">
-                        <img src="img/kit_caneta.png" alt="slide 1">
+                        <img src="img/kit_caneta.png" alt="slide 1" width="631px" height="auto">
                     </div><!--slide-box-->
 
                     <div class="slide-box">
@@ -106,11 +110,16 @@
                         <img src="img/img-kit-recomendado4.jpg" alt="slide 4">
                     </div><!--slide-box-->
 
+                    <div class="slide-box">
+                        <img src="img/img-kit-recomendado.jpg" alt="slide 5">
+                    </div><!--slide-box -->
+
                     <div class="nav-auto">
                         <div class="auto-btn1"></div>
                         <div class="auto-btn2"></div>
                         <div class="auto-btn3"></div>
                         <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
                     </div><!--nav-auto-->
 
                     <div class="nav-manual">
@@ -118,32 +127,25 @@
                         <label for="radio2" class="manual-btn"></label>
                         <label for="radio3" class="manual-btn"></label>
                         <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
                     </div><!--nav-manual-->
                 </div><!--slider-kit-->
             </div><!--slider-->
 
             <div id="sobre"></div>
 
-            <!-- <div class="recomendado" id="recomendado">
-                <img class="kit_recomendado" src="img/kit_caneta.png" alt="">
-                <img class="kit_recomendado" src="img/kit_churrasco.png" alt="">
-                <img class="kit_recomendado" src="img/kit_vinho.png" alt="">
-            </div>
-            <div class="recomendado">
-                <img class="kit_recomendado2" src="img/img-kit-recomendado.jpg" alt="">
-                <img class="kit_recomendado2" src="img/img-kit-recomendado4.jpg" alt="">
-            </div>
-        </div> -->
-
             <div class="sobre_container">
                 <div class="sobre">
                     <h2 class="sobre_titulo">SOBRE NÓS</h2>
                     <p class="sobre_informacao">
                         Localizada em Itabira, Minas Gerais, a loja <strong>Digital Bordados</strong>
-                        oferece uma coleção exclusiva de produtos bordados à máquina, utilizando também máquinas a laser
+                        oferece uma coleção exclusiva de produtos bordados à máquina, utilizando também máquinas a
+                        laser
                         e
-                        técnicas de impressão UV. Nossa loja oferece desde peças decorativas a roupões de microfibra bem
-                        quentinhos, além de personalizações de canecas, taças, copos, azulejos, placas, portas-joias e
+                        técnicas de impressão UV. Nossa loja oferece desde peças decorativas a roupões de microfibra
+                        bem
+                        quentinhos, além de personalizações de canecas, taças, copos, azulejos, placas, portas-joias
+                        e
                         até
                         em talheres. Cada item reflete a arte do bordado e personalização, proporcionando uma
                         experiência de
@@ -152,7 +154,8 @@
                     <p class="sobre_informacao">
                         Além de oferecer produtos de alta qualidade, a loja <strong>Digital
                             Bordados</strong> de Itabira
-                        se compromete com a excelência no atendimento ao cliente. Nossa equipe está sempre pronta para
+                        se compromete com a excelência no atendimento ao cliente. Nossa equipe está sempre pronta
+                        para
                         ajudar e oferecer
                         assistência personalizada, garantindo uma experiência de compra online fácil, segura e
                         satisfatória
@@ -162,7 +165,8 @@
                     <p class="sobre_informacao">
                         O diferencial dos nossos trabalhos está na qualidade excepcional do <strong>bordado</strong>
                         realizado com máquinas de alta precisão.
-                        A arte é criada manualmente no computador pelas nossas funcionárias especializadas ou pode ser
+                        A arte é criada manualmente no computador pelas nossas funcionárias especializadas ou pode
+                        ser
                         fornecida pronta pelos
                         clientes. Cada peça é cuidadosamente elaborada para garantir detalhes únicos e acabamentos
                         perfeitos
@@ -171,6 +175,7 @@
                 </div><!--sobre-->
                 <img src="img/maps_loja.png" alt="" class="img-sobre">
             </div><!-- sobre_container -->
+
             <div id="contato"></div>
             <div class="contato_container">
                 <iframe
@@ -209,7 +214,7 @@
                 <div class="rodape_links">
                     <h3>LINKS</h3>
                     <ul>
-                        <a href="#inicio">
+                        <a href="#inicio2">
                             <li>INÍCIO</li>
                         </a>
                         <a href="#novidades">

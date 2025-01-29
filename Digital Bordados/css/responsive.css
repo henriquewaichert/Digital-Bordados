@@ -1,0 +1,1296 @@
+/*SITES RESPONSIVEIS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    /* CABEÇALHO */
+
+    header .header-menu {
+        flex-direction: column;
+        position: fixed;
+        top: 7px;
+        left: 0;
+        background-color: #f7d7cd;
+        width: 45%;
+        height: auto;
+        padding: 10px 0;
+        border-radius: 5px;
+        transform: translateX(-100%);
+        transition: transform 0.7s ease, opacity 0.7s ease;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    header .header-menu ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+
+    header .header-menu ul li {
+        display: block;
+    }
+
+    header .header-menu ul li a {
+        font-size: 14px;
+    }
+
+    header .header-menu ul li a:hover {
+        font-size: 14.5px;
+    }
+
+    .aba-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .aba-menu .span-menu {
+        width: 17px;
+        height: 2px;
+        background: rgb(255, 255, 255);
+        margin: 2px 0;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    header .header-menu.active {
+        display: flex;
+        position: fixed;
+        height: 45%;
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .close-menu {
+        display: block;
+        background-color: #ff4c4c;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        cursor: pointer;
+        width: 55px;
+    }
+
+    .trilho {
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+        position: static;
+        margin-right: 20px;
+    }
+
+    .trilho .indicador {
+        top: 1;
+        position: relative;
+    }
+
+    header .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CABEÇALHO */
+
+    /* INICIO */
+    .containerinicio {
+        margin: 0 30px;
+    }
+
+    .frase_comeco {
+        width: 70%;
+        margin: 0;
+    }
+
+    .containerinicio .h1-frase1 {
+        top: 100px;
+        left: 0;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+
+    .img-comeco>img {
+        left: 0;
+        margin-left: auto;
+        bottom: 20px;
+        width: 130px;
+    }
+
+    /* INICIO */
+
+    /* NOVIDADES */
+
+    section .h2_novidades {
+        font-size: 18px;
+        width: 30%;
+    }
+
+    .container_img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container_img .img-novidade {
+        width: 190px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .new-item {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 0;
+        padding: 7px;
+    }
+
+    /* NOVIDADES */
+
+    /* RECOMENDADOS */
+    .h2_recomendado {
+        width: 75%;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slide-box img {
+        width: 50%;
+    }
+
+    .nav-manual,
+    .nav-auto {
+        margin-top: 71%;
+    }
+
+    .nav-manual .manual-btn,
+    .nav-auto div {
+        padding: 5px;
+    }
+
+    /* RECOMENDADOS */
+
+    /* SOBRE */
+    .sobre_container {
+        margin-top: 57px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 90%;
+    }
+
+    .sobre_titulo {
+        font-size: 17px;
+        width: 30%;
+        margin-bottom: 10%;
+    }
+
+    .sobre_informacao {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .img-sobre {
+        width: 50%;
+        border: 3.4px solid #7f0000;
+    }
+
+    /* SOBRE */
+
+    /* CONTATO */
+    .contato_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato {
+        order: 1;
+    }
+
+    .contato_container .contato .h2_titulo {
+        font-size: 17px;
+        width: 50%;
+        padding-bottom: 7px;
+    }
+
+    .contato .bi.bi-whatsapp {
+        font-size: 2.5em;
+    }
+
+    .contato_container .contato .form_contato {
+        margin-top: 6%;
+    }
+
+    form .input_text {
+        width: 230px;
+        height: 25px;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    form .btn-form {
+        font-size: 13px;
+        font-weight: 550;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    iframe {
+        order: 2;
+        width: 370px;
+        height: 320px;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    /* CONTATO */
+
+    /* FOOTER */
+    .rodape_slogan {
+        width: 120px;
+    }
+
+    .rodape_slogan p {
+        font-size: 12px;
+    }
+
+    .rodape_rede {
+        margin-right: 40px;
+    }
+
+    .rodape_rede h3 {
+        width: 110%;
+        font-size: 13px;
+    }
+
+    .rodape_rede .bi.bi-instagram,
+    .rodape_rede .bi.bi-facebook {
+        font-size: 18px;
+    }
+
+    .rodape_rede .bi.bi-instagram::before,
+    .rodape_rede .bi.bi-facebook::before {
+        padding-top: 7%;
+    }
+
+    .rodape_links h3 {
+        width: 50%;
+        font-size: 13px;
+        margin-bottom: 7%;
+    }
+
+    .rodape_links li {
+        font-size: 10px;
+        right: 2px;
+    }
+
+    hr {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header .header-menu {
+        flex-direction: column;
+        position: fixed;
+        top: 7px;
+        left: 0;
+        background-color: #f7d7cd;
+        width: 40%;
+        height: auto;
+        padding: 10px 0;
+        border-radius: 5px;
+        transform: translateX(-100%);
+        transition: transform 0.7s ease, opacity 0.7s ease;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    header .header-menu ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+
+    header .header-menu ul li {
+        display: block;
+    }
+
+    header .header-menu ul li a {
+        font-size: 15px;
+    }
+
+    header .header-menu ul li a:hover {
+        font-size: 15.5px;
+    }
+
+    .aba-menu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .aba-menu .span-menu {
+        width: 17px;
+        height: 2px;
+        background: rgb(255, 255, 255);
+        margin: 2px 0;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    header .header-menu.active {
+        display: flex;
+        position: fixed;
+        height: 45%;
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .close-menu {
+        display: block;
+        background-color: #ff4c4c;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        cursor: pointer;
+        width: 55px;
+    }
+
+    .trilho {
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+        position: static;
+        margin-right: 30px;
+    }
+
+    .trilho .indicador {
+        top: 1;
+        position: relative;
+    }
+
+    header .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CABEÇALHO */
+
+    /* INICIO */
+    .containerinicio {
+        margin: 0 40px;
+    }
+
+    .frase_comeco {
+        width: 70%;
+        margin: 0;
+    }
+
+    .containerinicio .h1-frase1 {
+        top: 100px;
+        left: 0;
+        margin-left: 2%;
+        font-size: 35px;
+    }
+
+    .img-comeco>img {
+        left: 0;
+        margin-left: auto;
+        bottom: 40px;
+        width: 150px;
+    }
+
+    /* INICIO */
+
+    /* NOVIDADES */
+
+    section .h2_novidades {
+        font-size: 20px;
+        width: 27%;
+    }
+
+    .container_img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .container_img .img-novidade {
+        width: 190px;
+        height: 200px;
+    }
+
+    .new-item {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    /* NOVIDADES */
+
+    /* RECOMENDADOS */
+    .h2_recomendado {
+        width: 62%;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slide-box img {
+        width: 50%;
+    }
+
+    .nav-manual,
+    .nav-auto {
+        margin-top: 71%;
+    }
+
+    .nav-manual .manual-btn,
+    .nav-auto div {
+        padding: 5px;
+    }
+
+    /* RECOMENDADOS */
+
+    /* SOBRE */
+    .sobre_container {
+        margin-top: 57px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 90%;
+    }
+
+    .sobre_titulo {
+        font-size: 20px;
+        width: 29%;
+        margin-bottom: 10%;
+    }
+
+    .sobre_informacao {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .img-sobre {
+        width: 50%;
+        margin-top: 20px;
+        border: 3.4px solid #7f0000;
+    }
+
+    /* SOBRE */
+
+    /* CONTATO */
+    .contato_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato {
+        order: 1;
+    }
+
+    .contato_container .contato .h2_titulo {
+        font-size: 20px;
+        width: 45%;
+        padding-bottom: 7px;
+    }
+
+    .contato .bi.bi-whatsapp {
+        font-size: 2.8em;
+    }
+
+    .contato_container .contato .form_contato {
+        margin-top: 6%;
+    }
+
+    form .input_text {
+        width: 250px;
+        height: 25px;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    form .btn-form {
+        font-size: 14px;
+        font-weight: 550;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    iframe {
+        order: 2;
+        width: 380px;
+        height: 330px;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    /* CONTATO */
+
+    /* FOOTER */
+    .rodape_slogan {
+        width: 130px;
+    }
+
+    .rodape_slogan p {
+        font-size: 13px;
+    }
+
+    .rodape_rede {
+        margin-right: 45px;
+    }
+
+    .rodape_rede h3 {
+        width: 110%;
+        font-size: 14px;
+    }
+
+    .rodape_rede .bi.bi-instagram,
+    .rodape_rede .bi.bi-facebook {
+        font-size: 19px;
+    }
+
+    .rodape_rede .bi.bi-instagram::before,
+    .rodape_rede .bi.bi-facebook::before {
+        padding-top: 8%;
+    }
+
+    .rodape_links h3 {
+        width: 69%;
+        font-size: 14px;
+        margin-bottom: 7%;
+    }
+
+    .rodape_links li {
+        font-size: 11px;
+        right: 2px;
+    }
+
+    hr {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .copyright {
+        font-size: 9.5px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header .header-menu {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    header .header-menu ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    header .header-menu ul li a {
+        font-size: 14.5px;
+    }
+
+    header .header-menu ul li a:hover {
+        font-size: 15px;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .trilho {
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+        position: static;
+        margin-right: 30px;
+    }
+
+    .trilho .indicador {
+        top: 1;
+        position: relative;
+    }
+
+    header .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CABEÇALHO */
+
+    /* INICIO */
+    .containerinicio {
+        margin: 0px 90px;
+    }
+
+    .frase_comeco {
+        width: 70%;
+        margin: 0;
+    }
+
+    .containerinicio .h1-frase1 {
+        top: 170px;
+        left: 0;
+        margin-left: 2%;
+        font-size: 45px;
+    }
+
+    .img-comeco>img {
+        left: 0;
+        margin-left: auto;
+        bottom: 40px;
+        width: 250px;
+    }
+
+    /* INICIO */
+
+    /* NOVIDADES */
+
+    section .h2_novidades {
+        font-size: 23px;
+        width: 17%;
+    }
+
+    .container_img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .container_img .img-novidade {
+        width: 250px;
+        height: 230px;
+        background-position: 50% 0%;
+    }
+
+    .new-item {
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* NOVIDADES */
+
+    /* RECOMENDADOS */
+    .h2_recomendado {
+        width: 40%;
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slide-box img {
+        width: 28%;
+    }
+
+    .nav-manual,
+    .nav-auto {
+        margin-top: 42%;
+    }
+
+    .nav-manual .manual-btn,
+    .nav-auto div {
+        padding: 5px;
+    }
+
+    /* RECOMENDADOS */
+
+    /* SOBRE */
+    .sobre_container {
+        margin-top: 57px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 55%;
+    }
+
+    .sobre_titulo {
+        font-size: 20px;
+        width: 29%;
+        margin: 0 auto 8% auto;
+    }
+
+    .sobre_informacao {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .img-sobre {
+        width: 35%;
+        margin-top: 40px;
+        border: 3.4px solid #7f0000;
+    }
+
+    /* SOBRE */
+
+    /* CONTATO */
+    .contato_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato {
+        order: 1;
+    }
+
+    .contato_container .contato .h2_titulo {
+        font-size: 23px;
+        width: 28%;
+        padding-bottom: 7px;
+    }
+
+    .contato .bi.bi-whatsapp {
+        font-size: 3.3em;
+    }
+
+    .contato_container .contato .form_contato {
+        margin-top: 2%;
+    }
+
+    form .input_text {
+        width: 350px;
+        height: 35px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    form .btn-form {
+        font-size: 16px;
+        font-weight: 550;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    iframe {
+        order: 2;
+        width: 680px;
+        height: 330px;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    /* CONTATO */
+
+    /* FOOTER */
+    .rodape_slogan {
+        width: 150px;
+    }
+
+    .rodape_slogan p {
+        font-size: 14px;
+    }
+
+    .rodape_rede {
+        margin-right: 45px;
+    }
+
+    .rodape_rede h3 {
+        width: 110%;
+        font-size: 15px;
+    }
+
+    .rodape_rede .bi.bi-instagram,
+    .rodape_rede .bi.bi-facebook {
+        font-size: 23px;
+    }
+
+    .rodape_links h3 {
+        width: 69%;
+        font-size: 15px;
+    }
+
+    .rodape_links li {
+        font-size: 13px;
+        right: 2px;
+    }
+
+    hr {
+        width: 85%;
+        margin: 25px auto;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header .header-menu {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    header .header-menu ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    header .header-menu ul li a {
+        font-size: 16.5px;
+    }
+
+    header .header-menu ul li a:hover {
+        font-size: 17px;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .trilho {
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+        position: static;
+        margin-right: 30px;
+    }
+
+    .trilho .indicador {
+        top: 1;
+        position: relative;
+    }
+
+    header .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CABEÇALHO */
+
+    /* INICIO */
+    .containerinicio {
+        margin: 0px 200px;
+    }
+
+    .frase_comeco {
+        width: 70%;
+        margin: 0;
+    }
+
+    .containerinicio .h1-frase1 {
+        top: 170px;
+        left: 0;
+        margin-left: 2%;
+        font-size: 55px;
+    }
+
+    .img-comeco>img {
+        left: 0;
+        margin-left: auto;
+        bottom: 70px;
+        width: 280px;
+    }
+
+    /* INICIO */
+
+    /* NOVIDADES */
+
+    section .h2_novidades {
+        font-size: 25px;
+        width: 13.5%;
+    }
+
+    .container_img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .container_img .img-novidade {
+        width: 280px;
+        height: 250px;
+        background-position: 50% 0%;
+    }
+
+    .new-item {
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* NOVIDADES */
+
+    /* RECOMENDADOS */
+    .h2_recomendado {
+        width: 32%;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slide-box img {
+        width: 25%;
+    }
+
+    .nav-manual,
+    .nav-auto {
+        margin-top: 37%;
+    }
+
+    .nav-manual .manual-btn,
+    .nav-auto div {
+        padding: 6px;
+    }
+
+    /* RECOMENDADOS */
+
+    /* SOBRE */
+    .sobre_container {
+        margin-top: 57px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 55%;
+    }
+
+    .sobre_titulo {
+        font-size: 25px;
+        width: 25%;
+        margin: 0 auto 8% auto;
+    }
+
+    .sobre_informacao {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .img-sobre {
+        width: 33%;
+        margin-top: 40px;
+        border: 3.4px solid #7f0000;
+    }
+
+    /* SOBRE */
+
+    /* CONTATO */
+    .contato_container .contato .h2_titulo {
+        font-size: 25px;
+        width: 84%;
+        padding-bottom: 7px;
+    }
+
+    .contato .bi.bi-whatsapp {
+        font-size: 3.5em;
+    }
+
+    form .input_text {
+        width: 350px;
+        height: 35px;
+        padding: 5px;
+    }
+
+    form .btn-form {
+        font-weight: 550;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    /* CONTATO */
+
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        overflow: hidden;
+    }
+
+    header .header-menu {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    header .header-menu ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    header .header-menu ul li a {
+        font-size: 16.5px;
+    }
+
+    header .header-menu ul li a:hover {
+        font-size: 17px;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .trilho {
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+        position: static;
+        margin-right: 30px;
+    }
+
+    .trilho .indicador {
+        top: 1;
+        position: relative;
+    }
+
+    header .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CABEÇALHO */
+
+    /* INICIO */
+    .containerinicio {
+        margin: 0px 200px;
+    }
+
+    .frase_comeco {
+        width: 70%;
+        margin: 0;
+    }
+
+    .containerinicio .h1-frase1 {
+        top: 170px;
+        left: 0;
+        margin-left: 2%;
+        font-size: 55px;
+    }
+
+    .img-comeco>img {
+        left: 0;
+        margin-left: auto;
+        bottom: 70px;
+        width: 280px;
+    }
+
+    /* INICIO */
+
+    /* NOVIDADES */
+
+    section .h2_novidades {
+        font-size: 23px;
+        width: 8%;
+    }
+
+    .container_img {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    .container_img .img-novidade {
+        width: 280px;
+        height: 250px;
+        background-position: 50% 0%;
+        margin: 0 3.5%;
+        padding: 0;
+    }
+
+    .new-item {
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    /* NOVIDADES */
+
+    /* RECOMENDADOS */
+    .h2_recomendado {
+        width: 20%;
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .slide-box img {
+        width: 18%;
+    }
+
+    .nav-manual,
+    .nav-auto {
+        margin-top: 27%;
+    }
+
+    .nav-manual .manual-btn,
+    .nav-auto div {
+        padding: 6px;
+    }
+
+    /* RECOMENDADOS */
+
+    /* SOBRE */
+    .sobre_container {
+        margin-top: 57px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sobre {
+        width: 55%;
+    }
+
+    .sobre_titulo {
+        font-size: 23px;
+        width: 15%;
+        margin: 0 auto 8% auto;
+    }
+
+    .sobre_informacao {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .img-sobre {
+        width: 23%;
+        margin-top: 40px;
+        border: 3.4px solid #7f0000;
+    }
+
+    /* SOBRE */
+
+    /* CONTATO */
+    .contato_container .contato .h2_titulo {
+        font-size: 23px;
+        width: 67%;
+        padding-bottom: 7px;
+    }
+
+    .contato .bi.bi-whatsapp {
+        font-size: 3em;
+    }
+
+    form .input_text {
+        width: 350px;
+        height: 35px;
+        padding: 5px;
+    }
+
+    form .btn-form {
+        font-weight: 550;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    iframe {
+        width: 690px;
+        height: 500px;
+        padding-bottom: 0;
+    }
+
+    /* CONTATO */
+
+    /* FOOTER */
+    .rodape_slogan {
+        width: 150px;
+    }
+
+    .rodape_slogan p {
+        font-size: 14px;
+    }
+
+    .rodape_rede {
+        margin-right: 45px;
+    }
+
+    .rodape_rede h3 {
+        width: 110%;
+        font-size: 15px;
+    }
+
+    .rodape_rede .bi.bi-instagram,
+    .rodape_rede .bi.bi-facebook {
+        font-size: 23px;
+    }
+
+    .rodape_links h3 {
+        width: 69%;
+        font-size: 15px;
+    }
+
+    .rodape_links li {
+        font-size: 13px;
+        right: 2px;
+    }
+
+    hr {
+        width: 85%;
+        margin: 25px auto;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+}
