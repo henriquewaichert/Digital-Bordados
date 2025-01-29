@@ -37,14 +37,16 @@
 
     header .header-menu ul li {
         display: block;
+        width: 50%;
+        height: 35px;
     }
 
     header .header-menu ul li a {
-        font-size: 14px;
+        font-size: 11px;
     }
 
     header .header-menu ul li a:hover {
-        font-size: 14.5px;
+        font-size: 11.5px;
     }
 
     .aba-menu {
@@ -65,12 +67,13 @@
         display: flex;
         justify-content: left;
         flex-direction: column;
+        
     }
 
     header .header-menu.active {
         display: flex;
         position: fixed;
-        height: 45%;
+        height: 35%;
         transform: translateX(0);
         opacity: 1;
     }
@@ -84,7 +87,7 @@
         padding: 10px 20px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10px;
+        margin-top: 17px;
         cursor: pointer;
         width: 55px;
     }
@@ -199,12 +202,12 @@
     }
 
     .sobre {
-        width: 90%;
+        width: 95%;
     }
 
     .sobre_titulo {
         font-size: 17px;
-        width: 30%;
+        width: 35%;
         margin-bottom: 10%;
     }
 
@@ -256,6 +259,7 @@
         font-weight: 550;
         padding: 10px;
         margin-bottom: 40px;
+        color: #000;
     }
 
     iframe {
@@ -958,7 +962,7 @@
 
     section .h2_novidades {
         font-size: 25px;
-        width: 13.5%;
+        width: 16.5%;
     }
 
     .container_img {
@@ -1142,7 +1146,7 @@
 
     section .h2_novidades {
         font-size: 23px;
-        width: 8%;
+        width: 10%;
     }
 
     .container_img {
@@ -1169,7 +1173,7 @@
 
     /* RECOMENDADOS */
     .h2_recomendado {
-        width: 20%;
+        width: 25%;
         font-size: 23px;
         text-align: center;
         margin-bottom: 20px;
@@ -1204,7 +1208,7 @@
 
     .sobre_titulo {
         font-size: 23px;
-        width: 15%;
+        width: 19%;
         margin: 0 auto 8% auto;
     }
 

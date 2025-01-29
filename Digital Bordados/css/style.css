@@ -88,7 +88,7 @@ header {
 
 header#inicio {
   position: fixed;
-  width: 99%;
+  width: 100%;
   z-index: 2;
   transition: transform 0.3s ease;
   background-color: #f7d7cd;
@@ -264,7 +264,7 @@ nav .img-logo {
   margin: 0 auto;
   font-size: 22px;
   border-bottom: 1px solid #00000063;
-  width: 10%;
+  /* width: 23%; */
 }
 
 .container_img {
